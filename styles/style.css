@@ -1,11 +1,9 @@
+@import url("./header.css");
+
 :root {
-    --background: #EBECEE;
+    --background-body: #EBECEE;
+    --background-header: #FFFFFF;
 }
 .body {
-    background-color: var(--background);
-}
-.main_header {
-    width: 100%;
-    height: 100px;
-    background-color: aqua;
+    background-color: var(--background-body);
 }
